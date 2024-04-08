@@ -14,6 +14,15 @@
 		1DC983832BBFD4FE00390324 /* podcastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC983822BBFD4FE00390324 /* podcastTests.swift */; };
 		1DC9838D2BBFD4FE00390324 /* podcastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC9838C2BBFD4FE00390324 /* podcastUITests.swift */; };
 		1DC9838F2BBFD4FF00390324 /* podcastUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC9838E2BBFD4FF00390324 /* podcastUITestsLaunchTests.swift */; };
+		1DC983AF2BBFEA9F00390324 /* GreenTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC983AE2BBFEA9F00390324 /* GreenTapView.swift */; };
+		1DC983B12BBFEAAC00390324 /* RedTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC983B02BBFEAAC00390324 /* RedTapView.swift */; };
+		1DC983B32BBFEABD00390324 /* BlueTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC983B22BBFEABD00390324 /* BlueTapView.swift */; };
+		1DC983B52BBFEB2200390324 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC983B42BBFEB2200390324 /* HomeView.swift */; };
+		1DC983B72BC005AB00390324 /* SocietyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC983B62BC005AB00390324 /* SocietyView.swift */; };
+		1DC983BB2BC00DCF00390324 /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC983BA2BC00DCF00390324 /* PlayButton.swift */; };
+		1DC983C62BC035C000390324 /* MusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC983C52BC035C000390324 /* MusicView.swift */; };
+		1DC983CE2BC03CE900390324 /* FloatingPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC983CD2BC03CE900390324 /* FloatingPlayer.swift */; };
+		1DC983D22BC0492000390324 /* MusicBottomSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC983D12BC0492000390324 /* MusicBottomSheetController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +53,15 @@
 		1DC983882BBFD4FE00390324 /* podcastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = podcastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DC9838C2BBFD4FE00390324 /* podcastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = podcastUITests.swift; sourceTree = "<group>"; };
 		1DC9838E2BBFD4FF00390324 /* podcastUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = podcastUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1DC983AE2BBFEA9F00390324 /* GreenTapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenTapView.swift; sourceTree = "<group>"; };
+		1DC983B02BBFEAAC00390324 /* RedTapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedTapView.swift; sourceTree = "<group>"; };
+		1DC983B22BBFEABD00390324 /* BlueTapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueTapView.swift; sourceTree = "<group>"; };
+		1DC983B42BBFEB2200390324 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1DC983B62BC005AB00390324 /* SocietyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocietyView.swift; sourceTree = "<group>"; };
+		1DC983BA2BC00DCF00390324 /* PlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayButton.swift; sourceTree = "<group>"; };
+		1DC983C52BC035C000390324 /* MusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicView.swift; sourceTree = "<group>"; };
+		1DC983CD2BC03CE900390324 /* FloatingPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FloatingPlayer.swift; path = Helpers/FloatingPlayer.swift; sourceTree = "<group>"; };
+		1DC983D12BC0492000390324 /* MusicBottomSheetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicBottomSheetController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +112,19 @@
 		1DC983702BBFD4FD00390324 /* podcast */ = {
 			isa = PBXGroup;
 			children = (
+				1DC983C02BC0185B00390324 /* Model */,
+				1DC983AE2BBFEA9F00390324 /* GreenTapView.swift */,
+				1DC983B02BBFEAAC00390324 /* RedTapView.swift */,
+				1DC983B22BBFEABD00390324 /* BlueTapView.swift */,
+				1DC983C52BC035C000390324 /* MusicView.swift */,
 				1DC983712BBFD4FD00390324 /* podcastApp.swift */,
-				1DC983732BBFD4FD00390324 /* ContentView.swift */,
+				1DC983CD2BC03CE900390324 /* FloatingPlayer.swift */,
 				1DC983752BBFD4FE00390324 /* Assets.xcassets */,
 				1DC983772BBFD4FE00390324 /* Preview Content */,
+				1DC983B62BC005AB00390324 /* SocietyView.swift */,
+				1DC983B92BC00DB500390324 /* Helpers */,
+				1DC983BA2BC00DCF00390324 /* PlayButton.swift */,
+				1DC983D12BC0492000390324 /* MusicBottomSheetController.swift */,
 			);
 			path = podcast;
 			sourceTree = "<group>";
@@ -125,6 +152,22 @@
 				1DC9838E2BBFD4FF00390324 /* podcastUITestsLaunchTests.swift */,
 			);
 			path = podcastUITests;
+			sourceTree = "<group>";
+		};
+		1DC983B92BC00DB500390324 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		1DC983C02BC0185B00390324 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1DC983732BBFD4FD00390324 /* ContentView.swift */,
+				1DC983B42BBFEB2200390324 /* HomeView.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +300,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DC983B32BBFEABD00390324 /* BlueTapView.swift in Sources */,
 				1DC983742BBFD4FD00390324 /* ContentView.swift in Sources */,
+				1DC983C62BC035C000390324 /* MusicView.swift in Sources */,
 				1DC983722BBFD4FD00390324 /* podcastApp.swift in Sources */,
+				1DC983D22BC0492000390324 /* MusicBottomSheetController.swift in Sources */,
+				1DC983B72BC005AB00390324 /* SocietyView.swift in Sources */,
+				1DC983B52BBFEB2200390324 /* HomeView.swift in Sources */,
+				1DC983CE2BC03CE900390324 /* FloatingPlayer.swift in Sources */,
+				1DC983BB2BC00DCF00390324 /* PlayButton.swift in Sources */,
+				1DC983B12BBFEAAC00390324 /* RedTapView.swift in Sources */,
+				1DC983AF2BBFEA9F00390324 /* GreenTapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

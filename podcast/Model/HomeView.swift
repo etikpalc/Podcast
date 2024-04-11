@@ -180,11 +180,11 @@ struct HomeView: View {
             .navigationTitle("Listen Now")
             .toolbar {
                            ToolbarItem(placement: .bottomBar) {
-                               Button("Sheet Button") {
+                               Button("Not Playing") {
                                    self.isShowingSheet.toggle()
                                }
                                .sheet(isPresented: $isShowingSheet) {
-                                   Text("Sheet Content")
+                                   MusicView()
                                }
                            }
                        }
